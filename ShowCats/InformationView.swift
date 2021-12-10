@@ -2,14 +2,22 @@ import SwiftUI
 
 struct InformationView: View {
     let name: String
+    let photoName: String
     var body: some View {
-        Text(name)
-            .navigationBarTitle(name, displayMode: .inline)
+        ScrollView{
+            Image(photoName)
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(8)
+                .padding()
+            Text("猫ちゃんの説明文")
+        }
+        .navigationBarTitle(name, displayMode: .inline)
     }
 }
 
 struct InformationView_Previews: PreviewProvider {
     static var previews: some View {
-        InformationView(name: "Cat")
+        InformationView(name: "Cat", photoName: "britishshorthair")
     }
 }

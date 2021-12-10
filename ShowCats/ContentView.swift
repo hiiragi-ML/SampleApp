@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     fileprivate func showCats(rank: Int, photoName: String, name: String, explanation: String) -> some View {
         return VStack{
             HStack{
@@ -10,7 +9,7 @@ struct ContentView: View {
                     .frame(width:75, height:35)
                 Spacer()
             }
-            NavigationLink(destination: InformationView(name: name)){
+            NavigationLink(destination: InformationView(name: name, photoName: photoName)){
                 HStack{
                     Image(photoName)
                         .resizable()
