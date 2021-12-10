@@ -39,8 +39,7 @@ struct ContentView: View {
                 
                 showCats(rank: 2, photoName: "munchkin", name: "マンチカン", explanation: "マンチカンは大変陽気で好奇心が強く、遊び好きです。人や同居の他のペットとも上手に接します。また、比較的おとなしい性格なので、他の猫などとも一緒に飼育できます。")
 
-#warning("混血猫の説明文がありません")
-                showCats(rank: 3, photoName: "mixed", name: "混血猫", explanation: "")
+                showCats(rank: 3, photoName: "mike", name: "混血猫", explanation: "")
                 
                 showCats(rank: 4, photoName: "americanshorthair", name: "アメリカンショートヘア", explanation: "アメリカンショートヘアは大変明るく好奇心旺盛な猫です。孤独好きで、撫でられることまで許可されても抱っこはさせてくれないかもしれません。")
 
@@ -48,13 +47,10 @@ struct ContentView: View {
                 
                 showCats(rank: 6, photoName: "britishshorthair", name: "ブリティッシュショートヘア", explanation: "ブリティッシュショートヘアは静かに過ごすのが好きな穏やかで優しい猫です。自立心が強く堂々としていますが、人と一緒にいることも大好きです。")
 
-#warning("ランキング7位の猫の情報がありません")
                 showCats(rank: 7, photoName: "", name: "", explanation: "")
                 
-#warning("ランキング8位から11位の猫の情報がありません")
                 showCats(rank: 12, photoName: "russianblue", name: "ロシアンブルー", explanation: "ロシアンブルーは飼い主に忠実で犬のような性格です。プライドが高く気まぐれで、嫉妬深い性格も猫っぽさがあります。")
                 
-#warning("ランキング13位から20位の猫のじょうほうがありません")
             }
             .padding()
             .background(Color(white: 0.9))
