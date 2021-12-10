@@ -11,13 +11,26 @@
 		FB5A62D227602EE900D5509F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A62D127602EE900D5509F /* ContentView.swift */; };
 		FB5A62D427602EEA00D5509F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A62D327602EEA00D5509F /* Assets.xcassets */; };
 		FB5A62D727602EEA00D5509F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A62D627602EEA00D5509F /* Preview Assets.xcassets */; };
-		FBA4B95C2762FC6E00F416F3 /* americanshorthair.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBA4B9552762FC6E00F416F3 /* americanshorthair.jpeg */; };
-		FBA4B95D2762FC6E00F416F3 /* britishshorthair.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBA4B9562762FC6E00F416F3 /* britishshorthair.jpeg */; };
-		FBA4B95E2762FC6E00F416F3 /* munchkin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBA4B9572762FC6E00F416F3 /* munchkin.jpeg */; };
-		FBA4B95F2762FC6E00F416F3 /* russianblue.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBA4B9582762FC6E00F416F3 /* russianblue.jpeg */; };
-		FBA4B9602762FC6E00F416F3 /* scottishfold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA4B9592762FC6E00F416F3 /* scottishfold.jpg */; };
-		FBA4B9612762FC6E00F416F3 /* mike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA4B95A2762FC6E00F416F3 /* mike.jpg */; };
-		FBA4B9622762FC6E00F416F3 /* norwegianforestcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBA4B95B2762FC6E00F416F3 /* norwegianforestcat.jpg */; };
+		FBEBF4B927631ACD00853593 /* somali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A527631ACD00853593 /* somali.jpg */; };
+		FBEBF4BA27631ACD00853593 /* ragamuffin.png in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A627631ACD00853593 /* ragamuffin.png */; };
+		FBEBF4BB27631ACD00853593 /* bengal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A727631ACD00853593 /* bengal.jpg */; };
+		FBEBF4BC27631ACD00853593 /* exotic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A827631ACD00853593 /* exotic.jpg */; };
+		FBEBF4BD27631ACD00853593 /* britishshorthair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A927631ACD00853593 /* britishshorthair.jpg */; };
+		FBEBF4BE27631ACD00853593 /* persia_chinchilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AA27631ACD00853593 /* persia_chinchilla.jpg */; };
+		FBEBF4BF27631ACD00853593 /* americancurl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AB27631ACD00853593 /* americancurl.jpg */; };
+		FBEBF4C027631ACD00853593 /* siberian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AC27631ACD00853593 /* siberian.jpg */; };
+		FBEBF4C127631ACD00853593 /* ragdoll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AD27631ACD00853593 /* ragdoll.jpg */; };
+		FBEBF4C227631ACD00853593 /* mixed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AE27631ACD00853593 /* mixed.jpg */; };
+		FBEBF4C327631ACD00853593 /* scottishfold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AF27631ACD00853593 /* scottishfold.jpg */; };
+		FBEBF4C427631ACD00853593 /* russianblue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B027631ACD00853593 /* russianblue.jpg */; };
+		FBEBF4C527631ACD00853593 /* japanesecat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B127631ACD00853593 /* japanesecat.jpg */; };
+		FBEBF4C627631ACD00853593 /* munchkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B227631ACD00853593 /* munchkin.jpg */; };
+		FBEBF4C727631ACD00853593 /* persia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B327631ACD00853593 /* persia.jpg */; };
+		FBEBF4C827631ACD00853593 /* mainecoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B427631ACD00853593 /* mainecoon.jpg */; };
+		FBEBF4C927631ACD00853593 /* exoticshorthair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B527631ACD00853593 /* exoticshorthair.jpg */; };
+		FBEBF4CA27631ACD00853593 /* americanshorthair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B627631ACD00853593 /* americanshorthair.jpg */; };
+		FBEBF4CB27631ACD00853593 /* minuet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B727631ACD00853593 /* minuet.jpg */; };
+		FBEBF4CC27631ACD00853593 /* norwegianforestcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4B827631ACD00853593 /* norwegianforestcat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,13 +39,26 @@
 		FB5A62D127602EE900D5509F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB5A62D327602EEA00D5509F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5A62D627602EEA00D5509F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FBA4B9552762FC6E00F416F3 /* americanshorthair.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = americanshorthair.jpeg; sourceTree = "<group>"; };
-		FBA4B9562762FC6E00F416F3 /* britishshorthair.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = britishshorthair.jpeg; sourceTree = "<group>"; };
-		FBA4B9572762FC6E00F416F3 /* munchkin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munchkin.jpeg; sourceTree = "<group>"; };
-		FBA4B9582762FC6E00F416F3 /* russianblue.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = russianblue.jpeg; sourceTree = "<group>"; };
-		FBA4B9592762FC6E00F416F3 /* scottishfold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scottishfold.jpg; sourceTree = "<group>"; };
-		FBA4B95A2762FC6E00F416F3 /* mike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mike.jpg; sourceTree = "<group>"; };
-		FBA4B95B2762FC6E00F416F3 /* norwegianforestcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = norwegianforestcat.jpg; sourceTree = "<group>"; };
+		FBEBF4A527631ACD00853593 /* somali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = somali.jpg; sourceTree = "<group>"; };
+		FBEBF4A627631ACD00853593 /* ragamuffin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ragamuffin.png; sourceTree = "<group>"; };
+		FBEBF4A727631ACD00853593 /* bengal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bengal.jpg; sourceTree = "<group>"; };
+		FBEBF4A827631ACD00853593 /* exotic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exotic.jpg; sourceTree = "<group>"; };
+		FBEBF4A927631ACD00853593 /* britishshorthair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = britishshorthair.jpg; sourceTree = "<group>"; };
+		FBEBF4AA27631ACD00853593 /* persia_chinchilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = persia_chinchilla.jpg; sourceTree = "<group>"; };
+		FBEBF4AB27631ACD00853593 /* americancurl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = americancurl.jpg; sourceTree = "<group>"; };
+		FBEBF4AC27631ACD00853593 /* siberian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siberian.jpg; sourceTree = "<group>"; };
+		FBEBF4AD27631ACD00853593 /* ragdoll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ragdoll.jpg; sourceTree = "<group>"; };
+		FBEBF4AE27631ACD00853593 /* mixed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mixed.jpg; sourceTree = "<group>"; };
+		FBEBF4AF27631ACD00853593 /* scottishfold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scottishfold.jpg; sourceTree = "<group>"; };
+		FBEBF4B027631ACD00853593 /* russianblue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = russianblue.jpg; sourceTree = "<group>"; };
+		FBEBF4B127631ACD00853593 /* japanesecat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanesecat.jpg; sourceTree = "<group>"; };
+		FBEBF4B227631ACD00853593 /* munchkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munchkin.jpg; sourceTree = "<group>"; };
+		FBEBF4B327631ACD00853593 /* persia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = persia.jpg; sourceTree = "<group>"; };
+		FBEBF4B427631ACD00853593 /* mainecoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainecoon.jpg; sourceTree = "<group>"; };
+		FBEBF4B527631ACD00853593 /* exoticshorthair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exoticshorthair.jpg; sourceTree = "<group>"; };
+		FBEBF4B627631ACD00853593 /* americanshorthair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = americanshorthair.jpg; sourceTree = "<group>"; };
+		FBEBF4B727631ACD00853593 /* minuet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minuet.jpg; sourceTree = "<group>"; };
+		FBEBF4B827631ACD00853593 /* norwegianforestcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = norwegianforestcat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +91,7 @@
 		FB5A62CE27602EE900D5509F /* ShowCats */ = {
 			isa = PBXGroup;
 			children = (
-				FBA4B9542762FC6E00F416F3 /* cats */,
+				FBEBF4A427631ACD00853593 /* cats */,
 				FB5A62CF27602EE900D5509F /* ShowCats.swift */,
 				FB5A62D127602EE900D5509F /* ContentView.swift */,
 				FB5A62D327602EEA00D5509F /* Assets.xcassets */,
@@ -82,16 +108,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FBA4B9542762FC6E00F416F3 /* cats */ = {
+		FBEBF4A427631ACD00853593 /* cats */ = {
 			isa = PBXGroup;
 			children = (
-				FBA4B9552762FC6E00F416F3 /* americanshorthair.jpeg */,
-				FBA4B9562762FC6E00F416F3 /* britishshorthair.jpeg */,
-				FBA4B9572762FC6E00F416F3 /* munchkin.jpeg */,
-				FBA4B9582762FC6E00F416F3 /* russianblue.jpeg */,
-				FBA4B9592762FC6E00F416F3 /* scottishfold.jpg */,
-				FBA4B95A2762FC6E00F416F3 /* mike.jpg */,
-				FBA4B95B2762FC6E00F416F3 /* norwegianforestcat.jpg */,
+				FBEBF4A527631ACD00853593 /* somali.jpg */,
+				FBEBF4A627631ACD00853593 /* ragamuffin.png */,
+				FBEBF4A727631ACD00853593 /* bengal.jpg */,
+				FBEBF4A827631ACD00853593 /* exotic.jpg */,
+				FBEBF4A927631ACD00853593 /* britishshorthair.jpg */,
+				FBEBF4AA27631ACD00853593 /* persia_chinchilla.jpg */,
+				FBEBF4AB27631ACD00853593 /* americancurl.jpg */,
+				FBEBF4AC27631ACD00853593 /* siberian.jpg */,
+				FBEBF4AD27631ACD00853593 /* ragdoll.jpg */,
+				FBEBF4AE27631ACD00853593 /* mixed.jpg */,
+				FBEBF4AF27631ACD00853593 /* scottishfold.jpg */,
+				FBEBF4B027631ACD00853593 /* russianblue.jpg */,
+				FBEBF4B127631ACD00853593 /* japanesecat.jpg */,
+				FBEBF4B227631ACD00853593 /* munchkin.jpg */,
+				FBEBF4B327631ACD00853593 /* persia.jpg */,
+				FBEBF4B427631ACD00853593 /* mainecoon.jpg */,
+				FBEBF4B527631ACD00853593 /* exoticshorthair.jpg */,
+				FBEBF4B627631ACD00853593 /* americanshorthair.jpg */,
+				FBEBF4B727631ACD00853593 /* minuet.jpg */,
+				FBEBF4B827631ACD00853593 /* norwegianforestcat.jpg */,
 			);
 			path = cats;
 			sourceTree = "<group>";
@@ -154,15 +193,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEBF4BF27631ACD00853593 /* americancurl.jpg in Resources */,
 				FB5A62D727602EEA00D5509F /* Preview Assets.xcassets in Resources */,
+				FBEBF4BD27631ACD00853593 /* britishshorthair.jpg in Resources */,
+				FBEBF4BC27631ACD00853593 /* exotic.jpg in Resources */,
+				FBEBF4C527631ACD00853593 /* japanesecat.jpg in Resources */,
+				FBEBF4BA27631ACD00853593 /* ragamuffin.png in Resources */,
+				FBEBF4CC27631ACD00853593 /* norwegianforestcat.jpg in Resources */,
 				FB5A62D427602EEA00D5509F /* Assets.xcassets in Resources */,
-				FBA4B95E2762FC6E00F416F3 /* munchkin.jpeg in Resources */,
-				FBA4B95D2762FC6E00F416F3 /* britishshorthair.jpeg in Resources */,
-				FBA4B9602762FC6E00F416F3 /* scottishfold.jpg in Resources */,
-				FBA4B9622762FC6E00F416F3 /* norwegianforestcat.jpg in Resources */,
-				FBA4B9612762FC6E00F416F3 /* mike.jpg in Resources */,
-				FBA4B95C2762FC6E00F416F3 /* americanshorthair.jpeg in Resources */,
-				FBA4B95F2762FC6E00F416F3 /* russianblue.jpeg in Resources */,
+				FBEBF4C027631ACD00853593 /* siberian.jpg in Resources */,
+				FBEBF4C627631ACD00853593 /* munchkin.jpg in Resources */,
+				FBEBF4BB27631ACD00853593 /* bengal.jpg in Resources */,
+				FBEBF4BE27631ACD00853593 /* persia_chinchilla.jpg in Resources */,
+				FBEBF4C427631ACD00853593 /* russianblue.jpg in Resources */,
+				FBEBF4CB27631ACD00853593 /* minuet.jpg in Resources */,
+				FBEBF4C327631ACD00853593 /* scottishfold.jpg in Resources */,
+				FBEBF4C827631ACD00853593 /* mainecoon.jpg in Resources */,
+				FBEBF4B927631ACD00853593 /* somali.jpg in Resources */,
+				FBEBF4C127631ACD00853593 /* ragdoll.jpg in Resources */,
+				FBEBF4CA27631ACD00853593 /* americanshorthair.jpg in Resources */,
+				FBEBF4C227631ACD00853593 /* mixed.jpg in Resources */,
+				FBEBF4C727631ACD00853593 /* persia.jpg in Resources */,
+				FBEBF4C927631ACD00853593 /* exoticshorthair.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
