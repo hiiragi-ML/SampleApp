@@ -1,5 +1,5 @@
 import SwiftUI
- 
+
 struct ContentView: View {
     fileprivate func showCats(rank: Int, photoName: String, name: String, explanation: String) -> some View {
         return VStack{
