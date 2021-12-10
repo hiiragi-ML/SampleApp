@@ -11,6 +11,7 @@
 		FB5A62D227602EE900D5509F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5A62D127602EE900D5509F /* ContentView.swift */; };
 		FB5A62D427602EEA00D5509F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A62D327602EEA00D5509F /* Assets.xcassets */; };
 		FB5A62D727602EEA00D5509F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A62D627602EEA00D5509F /* Preview Assets.xcassets */; };
+		FB6FCFAD276344BB003F3BF1 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FCFAC276344BB003F3BF1 /* InformationView.swift */; };
 		FBEBF4B927631ACD00853593 /* somali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A527631ACD00853593 /* somali.jpg */; };
 		FBEBF4BA27631ACD00853593 /* ragamuffin.png in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A627631ACD00853593 /* ragamuffin.png */; };
 		FBEBF4BB27631ACD00853593 /* bengal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A727631ACD00853593 /* bengal.jpg */; };
@@ -18,7 +19,7 @@
 		FBEBF4BD27631ACD00853593 /* britishshorthair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4A927631ACD00853593 /* britishshorthair.jpg */; };
 		FBEBF4BE27631ACD00853593 /* persia_chinchilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AA27631ACD00853593 /* persia_chinchilla.jpg */; };
 		FBEBF4BF27631ACD00853593 /* americancurl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AB27631ACD00853593 /* americancurl.jpg */; };
-		FBEBF4C027631ACD00853593 /* siberian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AC27631ACD00853593 /* siberian.jpg */; };
+		FBEBF4C027631ACD00853593 /* siberianforestcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AC27631ACD00853593 /* siberianforestcat.jpg */; };
 		FBEBF4C127631ACD00853593 /* ragdoll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AD27631ACD00853593 /* ragdoll.jpg */; };
 		FBEBF4C227631ACD00853593 /* mixed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AE27631ACD00853593 /* mixed.jpg */; };
 		FBEBF4C327631ACD00853593 /* scottishfold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF4AF27631ACD00853593 /* scottishfold.jpg */; };
@@ -39,6 +40,7 @@
 		FB5A62D127602EE900D5509F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB5A62D327602EEA00D5509F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5A62D627602EEA00D5509F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB6FCFAC276344BB003F3BF1 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		FBEBF4A527631ACD00853593 /* somali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = somali.jpg; sourceTree = "<group>"; };
 		FBEBF4A627631ACD00853593 /* ragamuffin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ragamuffin.png; sourceTree = "<group>"; };
 		FBEBF4A727631ACD00853593 /* bengal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bengal.jpg; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		FBEBF4A927631ACD00853593 /* britishshorthair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = britishshorthair.jpg; sourceTree = "<group>"; };
 		FBEBF4AA27631ACD00853593 /* persia_chinchilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = persia_chinchilla.jpg; sourceTree = "<group>"; };
 		FBEBF4AB27631ACD00853593 /* americancurl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = americancurl.jpg; sourceTree = "<group>"; };
-		FBEBF4AC27631ACD00853593 /* siberian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siberian.jpg; sourceTree = "<group>"; };
+		FBEBF4AC27631ACD00853593 /* siberianforestcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = siberianforestcat.jpg; sourceTree = "<group>"; };
 		FBEBF4AD27631ACD00853593 /* ragdoll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ragdoll.jpg; sourceTree = "<group>"; };
 		FBEBF4AE27631ACD00853593 /* mixed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mixed.jpg; sourceTree = "<group>"; };
 		FBEBF4AF27631ACD00853593 /* scottishfold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scottishfold.jpg; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		FBEBF4B627631ACD00853593 /* americanshorthair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = americanshorthair.jpg; sourceTree = "<group>"; };
 		FBEBF4B727631ACD00853593 /* minuet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minuet.jpg; sourceTree = "<group>"; };
 		FBEBF4B827631ACD00853593 /* norwegianforestcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = norwegianforestcat.jpg; sourceTree = "<group>"; };
+		FBEBF4CD27632F3E00853593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +94,11 @@
 		FB5A62CE27602EE900D5509F /* ShowCats */ = {
 			isa = PBXGroup;
 			children = (
+				FBEBF4CD27632F3E00853593 /* Info.plist */,
 				FBEBF4A427631ACD00853593 /* cats */,
 				FB5A62CF27602EE900D5509F /* ShowCats.swift */,
 				FB5A62D127602EE900D5509F /* ContentView.swift */,
+				FB6FCFAC276344BB003F3BF1 /* InformationView.swift */,
 				FB5A62D327602EEA00D5509F /* Assets.xcassets */,
 				FB5A62D527602EEA00D5509F /* Preview Content */,
 			);
@@ -118,7 +123,7 @@
 				FBEBF4A927631ACD00853593 /* britishshorthair.jpg */,
 				FBEBF4AA27631ACD00853593 /* persia_chinchilla.jpg */,
 				FBEBF4AB27631ACD00853593 /* americancurl.jpg */,
-				FBEBF4AC27631ACD00853593 /* siberian.jpg */,
+				FBEBF4AC27631ACD00853593 /* siberianforestcat.jpg */,
 				FBEBF4AD27631ACD00853593 /* ragdoll.jpg */,
 				FBEBF4AE27631ACD00853593 /* mixed.jpg */,
 				FBEBF4AF27631ACD00853593 /* scottishfold.jpg */,
@@ -201,7 +206,7 @@
 				FBEBF4BA27631ACD00853593 /* ragamuffin.png in Resources */,
 				FBEBF4CC27631ACD00853593 /* norwegianforestcat.jpg in Resources */,
 				FB5A62D427602EEA00D5509F /* Assets.xcassets in Resources */,
-				FBEBF4C027631ACD00853593 /* siberian.jpg in Resources */,
+				FBEBF4C027631ACD00853593 /* siberianforestcat.jpg in Resources */,
 				FBEBF4C627631ACD00853593 /* munchkin.jpg in Resources */,
 				FBEBF4BB27631ACD00853593 /* bengal.jpg in Resources */,
 				FBEBF4BE27631ACD00853593 /* persia_chinchilla.jpg in Resources */,
@@ -227,6 +232,7 @@
 			files = (
 				FB5A62D227602EE900D5509F /* ContentView.swift in Sources */,
 				FB5A62D027602EE900D5509F /* ShowCats.swift in Sources */,
+				FB6FCFAD276344BB003F3BF1 /* InformationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,9 +366,11 @@
 				DEVELOPMENT_TEAM = YRB96N9NUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShowCats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,9 +397,11 @@
 				DEVELOPMENT_TEAM = YRB96N9NUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShowCats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

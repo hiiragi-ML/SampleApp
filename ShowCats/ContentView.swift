@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     fileprivate func showCats(rank: Int, photoName: String, name: String, explanation: String) -> some View {
         return VStack{
             HStack{
@@ -9,16 +10,20 @@ struct ContentView: View {
                     .frame(width:75, height:35)
                 Spacer()
             }
-            HStack{
-                Image(photoName)
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(Circle())
-                    .frame(width: 120, height: 120)
-                Text(name)
-                    .font(.system(size: 22))
-                Spacer()
+            NavigationLink(destination: InformationView(name: name)){
+                HStack{
+                    Image(photoName)
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
+                        .frame(width: 120, height: 120)
+                        .shadow(color: .gray.opacity(0.7), radius: 10)
+                    Text(name)
+                        .font(.system(size: 22))
+                    Spacer()
+                }
             }
+            .navigationBarTitle("猫たち", displayMode: .automatic)
             HStack{
                 Text(explanation)
             }
@@ -30,37 +35,28 @@ struct ContentView: View {
         .shadow(color: .gray.opacity(0.7), radius: 5)
     }
     
-    var body: some View {
-        //        var catsName = ["スコティッシュフォールド", "マンチカン", "混血猫", "アメリカンショートヘア", "ノルウェージャンフォレストキャット", "ブリティッシュショートヘア", "ラグドール", "ミヌエット", "ベンガル", "サイベリアン", "メインクーン", "ロシアンブルー", "ラガマフィン", "エキゾチックショートヘア", "ペルシャ(チンチラ)", "ソマリ", "ペルシャ", "アメリカンカール", "エキゾチック", "日本猫"]
-        //
-        //        var catsPhotoname = ["scottishfold", "munchkin", "mike", "americanshorthair", "norwegianforestcat", "britishshorthair", "ragdoll", "minuet", "bengal", "siberian", "mainecoon", "russianblue", "ragamuffin", "exoticshorthair", "persia_chinchilla", "somali", "persia", "americancurl", "exotic", "japanesecat"]
+    let names_photoNames: [String: [String]] = [
+        "photoName": ["scottishfold", "munchkin", "mixed", "americanshorthair", "norwegianforestcat", "britishshorthair", "ragdoll", "minuet", "bengal", "siberianforestcat", "mainecoon", "russianblue", "ragamuffin", "exoticshorthair", "persia_chinchilla", "somali", "persia", "americancurl", "exotic", "japanesecat"],
         
-        ScrollView{
-            VStack{
-                Spacer()
-                
-                showCats(rank: 1, photoName: "scottishfold", name: "スコティッシュフォールド" , explanation: "スコティッシュフォールドは人懐っこく、穏やかで甘えるのが好きな子が多いです。また、比較的運動量が少ない猫です。")
-                
-                showCats(rank: 2, photoName: "munchkin", name: "マンチカン", explanation: "マンチカンは大変陽気で好奇心が強く、遊び好きです。人や同居の他のペットとも上手に接します。また、比較的おとなしい性格なので、他の猫などとも一緒に飼育できます。")
-                
-                showCats(rank: 3, photoName: "mixed", name: "混血猫", explanation: "")
-                
-                showCats(rank: 4, photoName: "americanshorthair", name: "アメリカンショートヘア", explanation: "アメリカンショートヘアは大変明るく好奇心旺盛な猫です。孤独好きで、撫でられることまで許可されても抱っこはさせてくれないかもしれません。")
-                
-                showCats(rank: 5, photoName: "norwegianforestcat", name: "ノルウェージャンフォレストキャット", explanation: "ノルウェージャンフォレストキャットは温厚な性格で、優しくて遊び好きな猫です。人に対する信頼も厚く、知らない人でもフレンドリーに接してくれます。")
-                
-                showCats(rank: 6, photoName: "britishshorthair", name: "ブリティッシュショートヘア", explanation: "ブリティッシュショートヘアは静かに過ごすのが好きな穏やかで優しい猫です。自立心が強く堂々としていますが、人と一緒にいることも大好きです。")
-                
-                showCats(rank: 7, photoName: "", name: "", explanation: "")
-                
-                showCats(rank: 12, photoName: "russianblue", name: "ロシアンブルー", explanation: "ロシアンブルーは飼い主に忠実で犬のような性格です。プライドが高く気まぐれで、嫉妬深い性格も猫っぽさがあります。")
-                
+        "name": ["スコティッシュフォールド", "マンチカン", "混血猫", "アメリカンショートヘア", "ノルウェージャンフォレストキャット", "ブリティッシュショートヘア", "ラグドール", "ミヌエット", "ベンガル", "サイベリアンフォレストキャット", "メインクーン", "ロシアンブルー", "ラガマフィン", "エキゾチックショートヘア", "チンチラペルシャ", "ソマリ", "ペルシャ", "アメリカンカール", "エキゾチック", "日本猫"],
+        
+        "explanation":["スコティッシュフォールドは人懐こく一緒に猫と遊びたいという人にはおすすめの猫です。","マンチカンは比較的おとなしく、人間になれやすい猫です。初めて会う人にもなつくことが多いです。","混血猫とは2種類以上の猫同士から生まれた純血種以外の猫のことで、日本で買われている猫の75%を占めると言われています。","アメリカンショートヘアは大変明るく、身体能力も高いと言われています。","ノルウェージャンフォレストキャットはとても温厚な性格です。また人に対する信頼度も厚く、初めて会う人でも怖がりません。","ブリティッシュショートヘアは静かに過ごすのが好きで穏やかな猫です。飼い主さんに忠実な猫です。","ラグドールは落ち着いた性格の子が多いです。また、おっとりした性格で情が深いです。","ミヌエットはペルシャのように甘えん坊でかつ、マンチカンのように好奇心旺盛な猫です。","ベンガルはワイルドな見た目に反して愛情深くて人懐っこい性格の猫です。人といるのが好きです。","サイベリアンフォレストキャットは犬のような性格で自分が認めた相手以外にはそっぽを向くことが多いです。","メインクーンは温厚で人になつきやすい性格です。また、賢い猫のため、トイレなどのしつけには困らないでしょう。","ロシアンブルーは飼い主に忠誠心を持ち従順な行動をとります。自分が認めた相手には好意を寄せてきます。","ラガマフィンは優しくておおらかな性格で、子供と遊ぶこともできます。甘え上手で愛らしい猫です。","エキゾチックショートヘアは、のんびり屋さんで平和主義です。どーんと構えて物怖じしない貫禄を感じる猫です。","チンチラペルシャは人に大げさに構われることを嫌いますが、突然甘えてきたりもするTHE 猫って漢字の猫です。","ソマリは温厚で明るい性格で、社交的な猫です。マイペースな一面もありますが、好奇心旺盛で活発な猫です。","ペルシャはおとなしく、ゆったりとした性格ですおとなになると活発に動くことも少なくなります。","アメリカンカールはとても賢く、穏やかで落ち着いた性格の猫です。いたずらをすることも少ないのでとても飼いやすいです。","エキゾチックショートヘアは、のんびり屋さんで平和主義です。どーんと構えて物怖じしない貫禄を感じる猫です。","日本猫は独立心が強く、クールな性格の猫です。また、社交的でもあるので他者との関わり合いを好みます。"]
+    ]
+    
+    var body: some View {
+        NavigationView{
+            ScrollView{
+                VStack{
+                    Spacer()
+                    ForEach(0..<names_photoNames["photoName"]!.count){number in
+                        showCats(rank: number+1, photoName: names_photoNames["photoName"]![number], name: names_photoNames["name"]![number], explanation: names_photoNames["explanation"]![number])
+                    }
+                }
+                .padding()
+                .background(Color(white: 0.9))
+                .foregroundColor(Color.black)
             }
-            .padding()
-            .background(Color(white: 0.9))
-            .foregroundColor(Color.black)
         }
-        .edgesIgnoringSafeArea(.bottom)
     }
 }
 
